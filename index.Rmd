@@ -1,0 +1,31 @@
+--- 
+title: "A Minimal Book Example"
+author: "John Doe"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+link-citations: yes
+github-repo: jimr1603/Tidyverse-Project-Euler
+---
+
+# Project Euler
+
+[Project Euler](https://projecteuler.net/) has a series of
+challenging coding problems. 
+
+The first set of problems are over 20 years old - we're allowed to discuss
+solutions to these out in the open. They respectfully ask that we don't discuss 
+solutions of more recent puzzles.
+
+I've put this book together to show how some of these puzzles can be solved
+with R + tidyverse-style packages + other packages as useful, as well as offering
+somewhere for R useRs to get some sensible Pull Requests in for #Hacktoberfest. 
+
+
